@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="user registration">
+    <meta name="keywords" content="HTML, WebDevelopment">
+    <meta name="author" content="Lauren Farrell - BUFFALOLO">
+
+    <title>User Registration</title>
+    <link rel="stylesheet" href="Module8Lesson2Assignment.css">
+</head>
+<body>
+    <nav>
+        <h1>COUCH_CAMPERS</h2>
+        <ul>
+            <li class="navitem"><a href="#">Home</a></li>
+            <li class="navitem"><a href="#">About</a></li>
+            <li class="navitem"><a href="#">Services</a></li>
+        </ul>
+        <p>
+            <button id="registerbutton">
+                <a href="registration.html" target="blank">Register Here!</a>
+            </button>
+        </p>
+    </nav>
+    <form>
+        <div role="alert" aria-live="assertive" id="error-message">
+            Please fill out all required fields
+        </div><br>
+
+        <fieldset>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <br><br>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <br><br>    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Engaging entertainment page">
+    <meta name="keywords" content="HTML, WebDevelopment">
+    <meta name="author" content="Lauren Farrell - BUFFALOLO">
+
+    <title>COUCH_CAMPERS</title>
+    <link rel="stylesheet" href="Module8Lesson2Assignment.css">
+</head>
+<body>
+    <nav>
+        <h1>COUCH_CAMPERS</h2>
+        <ul>
+            <li class="navitem"><a href="#">Home</a></li>
+            <li class="navitem"><a href="#">About</a></li>
+            <li class="navitem"><a href="#">Services</a></li>
+        </ul>
+        <p>
+            <button id="registerbutton">
+                <a href="registration.html" target="blank">Register Here!</a>
+            </button>
+        </p>
+    </nav>
+    <h2>GAMES WE SUGGEST</h2>
+    <p class="gameimages">
+        <img src="images/apex.jpg" alt="an image of apex legends game banner">
+        <button>
+            <a href="https://www.ea.com/games/apex-legends" target="blank">Learn More</a>
+        </button>
+        <img src="images/enshrouded.jpg" alt="an image of enshrouded's game banner">
+        <button>
+            <a href="https://enshrouded.com/" target="blank">Learn More</a>
+        </button>
+        <img src="images/grounded.jpg" alt="an image of grounded's game banner">
+        <button>
+            <a href="https://grounded.obsidian.net/" target="blank">Learn More</a>
+        </button>
+        <img src="images/itt.jpg" alt="an image of it takes two's game banner">
+        <button>
+            <a href="https://www.ea.com/games/it-takes-two/about" target="blank">Learn More</a>
+        </button>
+    </p>
+
+    <p>
+        <form>
+            <legend>What games would you like to see us stream?</legend><br>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Your name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="email" placeholder="Your email" required>
+            <br><br>         
+            <label for="feedback">Enter your message here:</label><br>
+            <textarea name="feedback" id="feedback" placeholder="Send us your suggestions" rows="5" cols="50" required></textarea>
+            <br>
+            <input name="submit" type="submit" value="Submit">
+        </form>
+    </p>
+</body>
+</html>
